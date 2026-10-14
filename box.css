@@ -25,6 +25,24 @@ h6 {
  * (no flexbox or grid). */
 .card h1 {
   /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+  color: rgb(110, 66, 130);
+}
+h1.title {
+  margin-inline: auto;
+  font-family: "Edu QLD Hand", cursive;
+  font-weight: 800px;
+  font-size: 25px;
+  color: rgb(110, 66, 130);
+  padding-inline: 1.12in;
+}
+h2.title {
+  margin-inline: auto;
+    font-family: "Edu QLD Hand", cursive;
+    font-weight: 600px;
+    font-size: 20px;
+    color: rgb(89, 56, 105);
+    padding-inline: 0.23in;
+}
+section.title {
+  margin-inline: auto;
 }
