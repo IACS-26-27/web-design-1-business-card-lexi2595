@@ -35,12 +35,33 @@ h1.title {
   color: rgb(110, 66, 130);
   padding-inline: 1.11in;
 }
+h1.follow {
+  margin-inline: 5px;
+  font-family: "Edu QLD Hand", cursive;
+  font-weight: 800px;
+  font-size: 25px;
+  color: rgb(110, 66, 130);
+  margin-block: -5px
+}
+h1.contact {
+  text-align: center;
+  font-family: "Edu QLD Hand", cursive;
+  font-weight: 800px;
+  font-size: 25px;
+  color: rgb(110, 66, 130);
+}
 h2.title {
   margin-inline: auto;
     font-weight: 600px;
     font-size: 20px;
     color: rgb(89, 56, 105);
     padding-inline: 0.18in;
+}
+h3.contact {
+  font-size: 10px;
+  color: rgb(89, 56, 105);
+  padding-bottom: 3px;
+  margin-bottom: 4px;
 }
 section.title {
   margin-inline: auto;
@@ -50,6 +71,7 @@ section.title {
   border-color: rgb(110, 76, 118);
   background-color: rgb(218, 173, 228);
   padding-bottom: 2px;
+  margin-bottom: 0px;
 }
 section.background {
   background-color: rgb(218, 173, 228);
@@ -58,14 +80,33 @@ section.bodyleft {
   display: inline-block;
   width: 2in;
   padding-left: 10px;
-  padding-top: 0px;
-  padding-bottom: 5px;
+  padding-block: 0px;
 }
 section.bodyright {
   display: inline-block;
-  padding-top: 10px;
-  padding-left: 15px;
+  padding-bottom: 3.4px;
+}
+section.whole {
+  align-self: center;
+  padding-block: auto;
+  padding-inline: auto;
+  text-align: center;
+}
+section.bracelet {
+  align-items: center;
+  padding-inline: center;
 }
 p {
   color: rgb(89, 56, 105);
+}
+img.brooch {
+  padding-top: 0px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+}
+img.bracelet {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  border: 1px solid purple;
 }
