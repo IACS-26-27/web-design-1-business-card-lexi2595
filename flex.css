@@ -22,9 +22,61 @@ h6 {
 
 /* Your flexbox card styles go here! */
 .card-front {
+  background-size: cover;
+  background-color: rgb(218, 173, 228);
+}
+.card-back {
+  background-size: cover;
+  background-color: rgb(218, 173, 228);
 }
 
 /* Honors: styles for each card size, for example:
 .square .card-front {
 }
 */
+h1.title {
+  margin-inline: auto;
+  font-family: "Edu QLD Hand", cursive;
+  font-weight: 800px;
+  font-size: 25px;
+  color: rgb(110, 66, 130);
+  text-align: center;
+}
+h2.title {
+  margin-inline: auto;
+  font-weight: 600px;
+  font-size: 20px;
+  color: rgb(89, 56, 105);
+  padding-inline: 0.18in;
+}
+section.title {
+  border: 0px solid goldenrod;
+  border-bottom-width: 3px;
+}
+section.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-inline: 10px;
+}
+p.description {
+  color: rgb(89, 56, 105);
+  font-size: 18px;
+}
+p.footer {
+  color: rgb(89, 56, 105);
+  font-size: 15px;
+}
+section.contact {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: end;
+}
+section.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 20px
+}

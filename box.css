@@ -23,11 +23,19 @@ h6 {
 /* Your box model card styles go here!
  * Layout with margin, padding, border, width, and height only
  * (no flexbox or grid). */
+.card-front {
+  background-size: cover;
+  background-color: rgb(218, 173, 228);
+}
+.card-back {
+  background-size: cover;
+  background-color: rgb(218, 173, 228);
+}
 .card h1 {
-  /* Demo style -- remove me and write your own */
   color: rgb(110, 66, 130);
 }
 h1.title {
+  padding-top: 2px;
   margin-inline: auto;
   font-family: "Edu QLD Hand", cursive;
   font-weight: 800px;
@@ -36,7 +44,7 @@ h1.title {
   padding-inline: 1.11in;
 }
 h1.follow {
-  margin-inline: 5px;
+  text-align: center;
   font-family: "Edu QLD Hand", cursive;
   font-weight: 800px;
   font-size: 25px;
@@ -65,22 +73,21 @@ h3.contact {
 }
 section.title {
   margin-inline: auto;
-  border-width: 2px;
+  border-width: 0px;
+  border-bottom-width: 2px;
   border-style: solid;
   border-radius: 5px;
-  border-color: rgb(110, 76, 118);
+  border-color: goldenrod;
   background-color: rgb(218, 173, 228);
   padding-bottom: 2px;
   margin-bottom: 0px;
-}
-section.background {
-  background-color: rgb(218, 173, 228);
 }
 section.bodyleft {
   display: inline-block;
   width: 2in;
   padding-left: 10px;
   padding-block: 0px;
+  text-align: center;
 }
 section.bodyright {
   display: inline-block;
@@ -93,8 +100,10 @@ section.whole {
   text-align: center;
 }
 section.bracelet {
+  padding-top: 12px;
+  background-size: cover;
   align-items: center;
-  padding-inline: center;
+  text-align: center;
 }
 p {
   color: rgb(89, 56, 105);
@@ -102,11 +111,15 @@ p {
 img.brooch {
   padding-top: 0px;
   margin-top: 10px;
-  padding-bottom: 2px;
-  padding-left: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  border: 1px solid purple;
 }
 img.bracelet {
   margin-top: 10px;
   margin-bottom: 2px;
   border: 1px solid purple;
+}
+footer {
+  padding-bottom: 1.55px;
 }
