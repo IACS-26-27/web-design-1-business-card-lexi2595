@@ -23,8 +23,103 @@ h6 {
 /* Your box model card styles go here!
  * Layout with margin, padding, border, width, and height only
  * (no flexbox or grid). */
+.card-front {
+  background-size: cover;
+  background-color: rgb(218, 173, 228);
+}
+.card-back {
+  background-size: cover;
+  background-color: rgb(218, 173, 228);
+}
 .card h1 {
-  /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+  color: rgb(110, 66, 130);
+}
+h1.title {
+  padding-top: 2px;
+  margin-inline: auto;
+  font-family: "Edu QLD Hand", cursive;
+  font-weight: 800px;
+  font-size: 25px;
+  color: rgb(110, 66, 130);
+  padding-inline: 1.11in;
+}
+h1.follow {
+  text-align: center;
+  font-family: "Edu QLD Hand", cursive;
+  font-weight: 800px;
+  font-size: 25px;
+  color: rgb(110, 66, 130);
+  margin-block: -5px
+}
+h1.contact {
+  text-align: center;
+  font-family: "Edu QLD Hand", cursive;
+  font-weight: 800px;
+  font-size: 25px;
+  color: rgb(110, 66, 130);
+}
+h2.title {
+  margin-inline: auto;
+    font-weight: 600px;
+    font-size: 20px;
+    color: rgb(89, 56, 105);
+    padding-inline: 0.18in;
+}
+h3.contact {
+  font-size: 10px;
+  color: rgb(89, 56, 105);
+  padding-bottom: 3px;
+  margin-bottom: 4px;
+}
+section.title {
+  margin-inline: auto;
+  border-width: 0px;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: goldenrod;
+  background-color: rgb(218, 173, 228);
+  padding-bottom: 2px;
+  margin-bottom: 0px;
+}
+section.bodyleft {
+  display: inline-block;
+  width: 2in;
+  padding-left: 10px;
+  padding-block: 0px;
+  text-align: center;
+}
+section.bodyright {
+  display: inline-block;
+  padding-bottom: 3.4px;
+}
+section.whole {
+  align-self: center;
+  padding-block: auto;
+  padding-inline: auto;
+  text-align: center;
+}
+section.bracelet {
+  padding-top: 12px;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+}
+p {
+  color: rgb(89, 56, 105);
+}
+img.brooch {
+  padding-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  border: 1px solid purple;
+}
+img.bracelet {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  border: 1px solid purple;
+}
+footer {
+  padding-bottom: 1.55px;
 }
