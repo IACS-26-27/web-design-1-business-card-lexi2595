@@ -25,6 +25,7 @@ h6 {
   background-size: cover;
   background-color: rgb(218, 173, 228);
 }
+
 .card-back {
   background-size: cover;
   background-color: rgb(218, 173, 228);
@@ -42,6 +43,7 @@ h1.title {
   color: rgb(110, 66, 130);
   text-align: center;
 }
+
 h2.title {
   margin-inline: auto;
   font-weight: 600px;
@@ -49,10 +51,12 @@ h2.title {
   color: rgb(89, 56, 105);
   padding-inline: 0.18in;
 }
+
 section.title {
   border: 0px solid goldenrod;
   border-bottom-width: 3px;
 }
+
 section.description {
   display: flex;
   justify-content: center;
@@ -60,20 +64,25 @@ section.description {
   text-align: center;
   margin-inline: 10px;
 }
+
 p.description {
+  padding-top: 5px;
   color: rgb(89, 56, 105);
   font-size: 18px;
 }
+
 p.footer {
   color: rgb(89, 56, 105);
   font-size: 15px;
 }
+
 section.contact {
   display: flex;
   height: 30px;
   justify-content: center;
   align-items: end;
 }
+
 section.image {
   display: flex;
   justify-content: center;
